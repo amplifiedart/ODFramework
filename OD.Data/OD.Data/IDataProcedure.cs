@@ -8,8 +8,8 @@ namespace OD.Data
 {
 	public interface IDataProcedure
 	{
-		string Procedure { get; } 
+		string Procedure { get; }
 
-		
+		int Execute();
 	}
 }
